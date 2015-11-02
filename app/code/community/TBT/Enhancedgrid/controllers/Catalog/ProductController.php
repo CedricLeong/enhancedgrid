@@ -46,11 +46,6 @@ class TBT_Enhancedgrid_Catalog_ProductController extends Mage_Adminhtml_Catalog_
     {
         $this->loadLayout();
         $this->_setActiveMenu('catalog/enhancedgrid');
-
-        $this->_addContent(
-            $this->getLayout()->createBlock('enhancedgrid/catalog_product')
-        );
-
         $this->renderLayout();
     }
 
